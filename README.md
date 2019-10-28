@@ -17,13 +17,13 @@
   * experiment_name
     * CV_0
       * results_overview.csv
-        * model_0
-          * model_0.h5
-          * model_0.json
-          * model_0_history.json
-          * model_0_evaluation.csv
-          * model_0_predictions.csv
-          * [model_0_predictions_scaled.csv]
-       * model_1
-          * ...
-       * ...
+      * model_0
+        * model_0.h5
+        * model_0.json
+        * model_0_history.json
+        * model_0_evaluation.csv
+        * model_0_predictions.csv
+        * [model_0_predictions_scaled.csv]
+      * model_1
+        * ...
+      * ...
