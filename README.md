@@ -9,9 +9,9 @@ Supports
 * Creates folder structure where the results are stored
 * Stores
 ⋅⋅* Models' .json and .h5 files
-''* Training and validation history
-''* If selected, prediction results on test set input
-''* Information about all trained models
-''''* Model's parameters
-''''* Loss during training
-''''* Validation results
+⋅⋅* Training and validation history
+⋅⋅* If selected, prediction results on test set input
+⋅⋅* Information about all trained models
+⋅⋅⋅⋅* Model's parameters
+⋅⋅⋅⋅* Loss during training
+⋅⋅⋅⋅* Validation results
