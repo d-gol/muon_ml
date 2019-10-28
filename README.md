@@ -34,6 +34,11 @@ Models can be trained, evaluated, and in the end a user should be able to select
         * ...
       * ...
 
+
+## Example
+Provided example is a convolutional neural network targeted for particle detection in a 3D CERN detector (HGCAL). The goal is to find a sufficiently small CNN to be able to run on an FPGA with low-latency (orders of micro seconds). This framework is used to automatically select parameters for optimization and find the best model. 
+
+
 ## To be improved
 
 * A rather rigid structure, every time a model needs to be defined within the code, should be more user-friendly
