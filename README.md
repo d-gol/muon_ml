@@ -1,5 +1,11 @@
-# A simple framework for hyper-parameters optimization
+# muon_ml
 
+A simple framework for hyper-parameters optimization of deep learning models.
+The idea is to provide a model architecture using Keras and a dictionary of parameters.
+Then, multiple models are created, using grid search.
+Models can be trained, evaluated, and in the end a user should be able to select the best hyper-parameters by focusing on chosen metrics.
+
+## Features
 * Defining hyper-parameters as dictionary
 * Creating multiple models using grid search of hyper-parameters 
 * Training multiple models
@@ -27,3 +33,9 @@
       * model_1
         * ...
       * ...
+
+## To be improved
+
+* A rather rigid structure, every time a model needs to be defined within the code, should be more user-friendly
+* Provide support for training on multiple GPU's
+* Divide one GPU to support multiple model's training if possible
